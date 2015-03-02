@@ -1,0 +1,13 @@
+﻿Timestamp	Filename	Error	Message
+2015-03-02 09:06:59.709 -0500	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-03-02 09:06:59.778 -0500	Script 1	0	script steps imported : 1
+2015-03-02 09:06:59.837 -0500	ExceptionHandling.fmp12	0	Import completed
+2015-03-02 09:07:05.010 -0500	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-03-02 09:07:05.011 -0500	Script 1	0	script steps imported : 1
+2015-03-02 09:07:05.012 -0500	ExceptionHandling.fmp12	0	Import completed
+2015-03-02 09:07:11.602 -0500	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-03-02 09:07:11.609 -0500	Script 2 ( calledBy )	0	script steps imported : 1
+2015-03-02 09:07:11.649 -0500	ExceptionHandling.fmp12	0	Import completed
+2015-03-02 09:07:25.836 -0500	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-03-02 09:07:25.855 -0500	Script B ( calledBy )	0	script steps imported : 1
+2015-03-02 09:07:25.856 -0500	ExceptionHandling.fmp12	0	Import completed
