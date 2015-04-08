@@ -138,7 +138,7 @@
 <node TEXT="Get Last Exception ( stackTrace ) &gt; lastExceptionDictionary" ID="ID_1410975939" CREATED="1428508264401" MODIFIED="1428512719451"/>
 </node>
 <node TEXT="Stack Trace" ID="ID_1073578092" CREATED="1428507042100" MODIFIED="1428509859294">
-<node TEXT="Add Script Instance to Stack Trace ( scriptName ; quo scriptParameter )" ID="ID_862706547" CREATED="1428507044659" MODIFIED="1428507076400"/>
+<node TEXT="Add Script Instance to Stack Trace ( scriptName ; quo scriptParameter { #exception } )" ID="ID_862706547" CREATED="1428507044659" MODIFIED="1428513312710"/>
 <node TEXT="Get Stack Trace &gt; $#stackTraceDictionary" ID="ID_1799309816" CREATED="1428512107702" MODIFIED="1428512120753"/>
 <node TEXT="Clear Stack Trace" ID="ID_444432647" CREATED="1428509846587" MODIFIED="1428509849358"/>
 </node>
@@ -160,7 +160,7 @@
 <node TEXT="Get Last Exception ( stackTrace ) &gt; lastExceptionDictionary" ID="ID_1715715175" CREATED="1428510086600" MODIFIED="1428512737803"/>
 </node>
 <node TEXT="Stack Trace" ID="ID_159332913" CREATED="1428510091960" MODIFIED="1428510093883">
-<node TEXT="Add Script Instance to Stack Trace ( scriptName ; scriptParameter )" ID="ID_763179428" CREATED="1428510094064" MODIFIED="1428510672121">
+<node TEXT="Add Script Instance to Stack Trace ( scriptName ; scriptParameter {#exception} )" ID="ID_763179428" CREATED="1428510094064" MODIFIED="1428513301677">
 <node TEXT="$nextRepetition = Get Current Stack Trace Length + 1" ID="ID_1768297862" CREATED="1428510563468" MODIFIED="1428510586887"/>
 <node TEXT="Set Variable $$stacktrace[$nextRepetition] = #ScriptInstance" ID="ID_1378767205" CREATED="1428510587460" MODIFIED="1428510625815"/>
 </node>
@@ -172,7 +172,7 @@
 </node>
 </node>
 <node TEXT="Get Stack Trace &gt; #stackTraceDictionary" ID="ID_1898994088" CREATED="1428512757175" MODIFIED="1428512768275"/>
-<node TEXT="Get Current Stack Trace Length" ID="ID_1551068292" CREATED="1428510101120" MODIFIED="1428510147966">
+<node TEXT="Get Current Stack Trace Length &gt; stackTraceLength" ID="ID_1551068292" CREATED="1428510101120" MODIFIED="1428513640853">
 <node TEXT="Get stack trace max size" ID="ID_475599195" CREATED="1428510149856" MODIFIED="1428510157235"/>
 <node TEXT="for 1 to maxSize: count number of variables that are not empty" ID="ID_1205735956" CREATED="1428510157552" MODIFIED="1428510188818"/>
 <node TEXT="return highest number variable that is not empty" ID="ID_1694989577" CREATED="1428510189575" MODIFIED="1428510198106"/>
