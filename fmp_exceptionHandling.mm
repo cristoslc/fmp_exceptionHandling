@@ -136,10 +136,10 @@
 <node TEXT="Throw Exception ( quo message ; scriptName ; quo scriptParameter )" ID="ID_1010924487" CREATED="1428506088252" MODIFIED="1428512485584"/>
 <node TEXT="Get Root Exception ( stackTrace ) &gt; rootExceptionDictionary" ID="ID_1060978359" CREATED="1428506170348" MODIFIED="1428512712478"/>
 <node TEXT="Get Last Exception ( stackTrace ) &gt; lastExceptionDictionary" ID="ID_1410975939" CREATED="1428508264401" MODIFIED="1428512719451"/>
+<node TEXT="Trap Exception &gt; $#stackTraceDictionary" ID="ID_1799309816" CREATED="1428512107702" MODIFIED="1428523947439"/>
 </node>
 <node TEXT="Stack Trace" ID="ID_1073578092" CREATED="1428507042100" MODIFIED="1428509859294">
 <node TEXT="Add Script Instance to Stack Trace ( scriptName ; quo scriptParameter { #exception } )" ID="ID_862706547" CREATED="1428507044659" MODIFIED="1428513312710"/>
-<node TEXT="Get Stack Trace &gt; $#stackTraceDictionary" ID="ID_1799309816" CREATED="1428512107702" MODIFIED="1428512120753"/>
 <node TEXT="Clear Stack Trace" ID="ID_444432647" CREATED="1428509846587" MODIFIED="1428509849358"/>
 </node>
 </node>

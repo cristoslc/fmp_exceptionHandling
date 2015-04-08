@@ -1,0 +1,7 @@
+﻿Timestamp	Filename	Error	Message
+2015-04-08 15:30:52.348 -0400	ExceptionHandling.fmp12	0	*** Started consistency check of improperly closed file, total of 78 block(s) to check
+2015-04-08 15:30:52.374 -0400	ExceptionHandling.fmp12	0	Reset maximum block sequence number to 54184
+2015-04-08 15:30:52.374 -0400	ExceptionHandling.fmp12	0	*** Completed consistency check, checked 78 block(s)
+2015-04-08 15:34:32.818 -0400	ExceptionHandling.fmp12	0	*** Started consistency check of improperly closed file, total of 78 block(s) to check
+2015-04-08 15:34:32.881 -0400	ExceptionHandling.fmp12	0	Reset maximum block sequence number to 54257
+2015-04-08 15:34:32.882 -0400	ExceptionHandling.fmp12	0	*** Completed consistency check, checked 78 block(s)
