@@ -106,3 +106,39 @@
 2015-04-09 10:56:38.064 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
 2015-04-09 10:56:38.065 -0400	~EXH: Clear Stack Trace	0	script steps imported : 1
 2015-04-09 10:56:38.066 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 11:49:21.644 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 11:49:21.647 -0400	Script 1	0	script steps imported : 1
+2015-04-09 11:49:21.647 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 11:50:40.602 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 11:50:40.604 -0400	Script 1	0	script steps imported : 1
+2015-04-09 11:50:40.604 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 11:54:22.329 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 11:54:22.331 -0400	Script 2 ( calledBy )	0	script steps imported : 2
+2015-04-09 11:54:22.331 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 11:55:30.041 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 11:55:30.046 -0400	Script 1	0	script steps imported : 1
+2015-04-09 11:55:30.046 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 11:55:34.888 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 11:55:34.890 -0400	Script 1	0	script steps imported : 1
+2015-04-09 11:55:34.890 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 11:56:15.935 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 11:56:15.938 -0400	Script 2 ( calledBy )	0	script steps imported : 4
+2015-04-09 11:56:15.938 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 12:06:02.530 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 12:06:02.532 -0400	Script 3 ( calledBy )	0	script steps imported : 6
+2015-04-09 12:06:02.532 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 12:06:32.538 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 12:06:32.540 -0400	Script B ( calledBy )	0	script steps imported : 2
+2015-04-09 12:06:32.540 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 12:06:50.809 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 12:06:50.812 -0400	Script B ( calledBy )	0	script steps imported : 6
+2015-04-09 12:06:50.812 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 12:08:46.705 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 12:08:46.707 -0400	Script C ( calledBy )	0	script steps imported : 6
+2015-04-09 12:08:46.713 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 12:10:25.232 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 12:10:25.234 -0400	Script 1	0	script steps imported : 1
+2015-04-09 12:10:25.234 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 12:10:33.344 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 12:10:33.344 -0400	Script 1	0	script steps imported : 1
+2015-04-09 12:10:33.344 -0400	ExceptionHandling.fmp12	0	Import completed
