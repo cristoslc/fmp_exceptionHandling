@@ -64,7 +64,9 @@
 <edge COLOR="#007c7c"/>
 <node TEXT="Logging should contain the entire event history in one record; not a dozen separate log items that you need to piece together." ID="ID_1203945183" CREATED="1428585624311" MODIFIED="1428585648235"/>
 <node TEXT="A Stack Trace contains the entire event history" ID="ID_1155992429" CREATED="1428585817917" MODIFIED="1428585824601"/>
-<node TEXT="" ID="ID_822792073" CREATED="1428585825356" MODIFIED="1428585825356"/>
+<node TEXT="If a subscript throws an exception, it should be passed up to the HIGHEST (closest to the user) point possible before being logged." ID="ID_822792073" CREATED="1428585825356" MODIFIED="1428603879678">
+<node TEXT="If a subscript throws an exception that triggers an exception in the current script, then the subscriptException should be included in the new exception&apos;s innerException" ID="ID_64380644" CREATED="1428603880238" MODIFIED="1428604993016"/>
+</node>
 </node>
 <node TEXT="Concepts" POSITION="right" ID="ID_686959568" CREATED="1428506184508" MODIFIED="1428506186111">
 <edge COLOR="#00ffff"/>
@@ -77,14 +79,21 @@
 <node TEXT="User PrivilegeSet Name" ID="ID_1183288507" CREATED="1428508038634" MODIFIED="1428508133775"/>
 <node TEXT="Layout Name" ID="ID_911634018" CREATED="1428508143970" MODIFIED="1428508146101"/>
 </node>
+<node TEXT="Automatic (delayed)" ID="ID_1869629457" CREATED="1428605530911" MODIFIED="1428605533770">
+<node TEXT="stack trace" ID="ID_886052875" CREATED="1428605534054" MODIFIED="1428605535602">
+<node TEXT="Script Parameters" ID="ID_1140853953" CREATED="1428507249785" MODIFIED="1428605712512"/>
+</node>
+</node>
 <node TEXT="Required" ID="ID_1014468300" CREATED="1428508174801" MODIFIED="1428508176676">
 <node TEXT="Exception Message" ID="ID_1074611546" CREATED="1428506869052" MODIFIED="1428507352292"/>
 <node TEXT="Script Name" ID="ID_1048000678" CREATED="1428506898269" MODIFIED="1428507249519"/>
-<node TEXT="Script Parameter" ID="ID_1140853953" CREATED="1428507249785" MODIFIED="1428507252133"/>
 </node>
 <node TEXT="Optional" ID="ID_979367036" CREATED="1428508172424" MODIFIED="1428508174076">
 <node TEXT="Exception Code" ID="ID_1773213834" CREATED="1428506863229" MODIFIED="1428507349806"/>
 <node TEXT="Exception Source" ID="ID_1911395443" CREATED="1428506872052" MODIFIED="1428508026870"/>
+<node TEXT="Inner Exception" ID="ID_194571002" CREATED="1428603704208" MODIFIED="1428603706763">
+<node TEXT="if this exception was the result of another exception being thrown, include that one here, too." ID="ID_1872517030" CREATED="1428603709544" MODIFIED="1428603721589"/>
+</node>
 </node>
 </node>
 </node>
@@ -107,7 +116,7 @@
 <node TEXT="Script Name" ID="ID_196864072" CREATED="1428509878314" MODIFIED="1428509879997">
 <node TEXT="ex: Get Root Exception" ID="ID_590186889" CREATED="1428512389851" MODIFIED="1428512393302"/>
 </node>
-<node TEXT="Exception Dictionary" ID="ID_1550610733" CREATED="1428509880826" MODIFIED="1428509884525"/>
+<node TEXT="#Exception" ID="ID_1550610733" CREATED="1428509880826" MODIFIED="1428604960154"/>
 </node>
 </node>
 <node TEXT="Stack Trace Dictionary" ID="ID_1462160042" CREATED="1428506941732" MODIFIED="1428512164867">
@@ -145,7 +154,12 @@
 <node TEXT="Throw Exception ( quo message ; scriptName ; quo scriptParameter )" ID="ID_1010924487" CREATED="1428506088252" MODIFIED="1428512485584"/>
 <node TEXT="Get Root Exception ( stackTrace ) &gt; rootExceptionDictionary" ID="ID_1060978359" CREATED="1428506170348" MODIFIED="1428512712478"/>
 <node TEXT="Get Last Exception ( stackTrace ) &gt; lastExceptionDictionary" ID="ID_1410975939" CREATED="1428508264401" MODIFIED="1428512719451"/>
-<node TEXT="Trap Exception &gt; $#stackTraceDictionary" ID="ID_1799309816" CREATED="1428512107702" MODIFIED="1428523947439"/>
+<node TEXT="Trap Exception ( #exception ) &gt; $#trappedException" ID="ID_1799309816" CREATED="1428512107702" MODIFIED="1428602647161">
+<node TEXT="gets stack trace and adds it to the exception" ID="ID_230755236" CREATED="1428602653697" MODIFIED="1428603491437"/>
+<node TEXT="gets scriptParameter from oldest stackframe and adds it to the exception" ID="ID_481015726" CREATED="1428603446042" MODIFIED="1428603489054"/>
+<node TEXT="" ID="ID_835321003" CREATED="1428603493897" MODIFIED="1428603493897"/>
+<node TEXT="clears stack trace" ID="ID_624256121" CREATED="1428602661778" MODIFIED="1428602665269"/>
+</node>
 </node>
 <node TEXT="Stack Trace" ID="ID_1073578092" CREATED="1428507042100" MODIFIED="1428509859294">
 <node TEXT="Add Script Instance to Stack Trace ( scriptName ; quo scriptParameter { #exception } )" ID="ID_862706547" CREATED="1428507044659" MODIFIED="1428513312710"/>
@@ -153,10 +167,10 @@
 </node>
 </node>
 <node TEXT="Configuration" ID="ID_839294833" CREATED="1428506245642" MODIFIED="1428506247070">
+<node TEXT="Log Exception ( #trappedException )" ID="ID_1270387610" CREATED="1428506712974" MODIFIED="1428602738079"/>
 <node TEXT="Set Stack Trace Max Size" ID="ID_562225607" CREATED="1428510124824" MODIFIED="1428510129043">
 <node TEXT="returns a number; configurable in case you need to increase it; defaults to 50?" ID="ID_715369459" CREATED="1428510129928" MODIFIED="1428512433832"/>
 </node>
-<node TEXT="Log Exception" ID="ID_1270387610" CREATED="1428506712974" MODIFIED="1428507152096"/>
 <node TEXT="Define Error Codes" ID="ID_560031846" CREATED="1428506888444" MODIFIED="1428506892456"/>
 <node TEXT="Define Error Types" ID="ID_665045729" CREATED="1428506892709" MODIFIED="1428506894816"/>
 </node>
