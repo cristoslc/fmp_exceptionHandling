@@ -5,3 +5,7 @@
 2015-04-08 15:34:32.818 -0400	ExceptionHandling.fmp12	0	*** Started consistency check of improperly closed file, total of 78 block(s) to check
 2015-04-08 15:34:32.881 -0400	ExceptionHandling.fmp12	0	Reset maximum block sequence number to 54257
 2015-04-08 15:34:32.882 -0400	ExceptionHandling.fmp12	0	*** Completed consistency check, checked 78 block(s)
+2015-04-09 10:06:25.675 -0400	ExceptionHandling.fmp12	0	*** Started consistency check of improperly closed file, total of 85 block(s) to check
+2015-04-09 10:06:25.853 -0400	ExceptionHandling.fmp12	8432	Page 85 marked free but not in free list
+2015-04-09 10:06:25.854 -0400	ExceptionHandling.fmp12	0	Reset maximum block sequence number to 56929
+2015-04-09 10:06:25.857 -0400	ExceptionHandling.fmp12	0	*** Completed consistency check, checked 85 block(s)

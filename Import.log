@@ -73,3 +73,36 @@
 2015-04-08 17:02:04.183 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
 2015-04-08 17:02:04.183 -0400	EXH: Get Stack Trace ( {isUsingLetNotation} ) > #stackTrace	0	script steps imported : 1
 2015-04-08 17:02:04.184 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 09:29:58.636 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 09:29:58.663 -0400	EXH: Define Error Sources	0	script steps imported : 1
+2015-04-09 09:29:58.663 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 09:40:35.306 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 09:40:35.331 -0400	~EXH: Add Script Instance to Stack Trace ( scriptName ; scriptParam { #exception } )	0	script steps imported : 7
+2015-04-09 09:40:35.331 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 09:42:20.738 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 09:42:20.739 -0400	~EXH: Get Current Stack Trace Length > stackTraceLength	0	script steps imported : 1
+2015-04-09 09:42:20.739 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:00:52.764 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:00:52.783 -0400	~EXH: Get Current Stack Trace Length > stackTraceLength	0	script steps imported : 1
+2015-04-09 10:00:52.783 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:04:08.501 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:04:08.502 -0400	~EXH: Get Current Stack Trace Length > stackTraceLength	0	script steps imported : 1
+2015-04-09 10:04:08.502 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:13:05.985 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:13:06.021 -0400	~EXH: Get Stack Trace > #stackTrace	0	script steps imported : 9
+2015-04-09 10:13:06.021 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:13:07.871 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:13:07.873 -0400	~EXH: Get Stack Trace > #stackTrace	0	script steps imported : 1
+2015-04-09 10:13:07.873 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:47:51.598 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:47:51.619 -0400	~EXH: Get Stack Trace > #stackTrace	0	script steps imported : 1
+2015-04-09 10:47:51.620 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:49:05.463 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:49:05.465 -0400	~EXH: Get Stack Trace > #stackTrace	0	script steps imported : 1
+2015-04-09 10:49:05.465 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:50:58.623 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:50:58.626 -0400	~EXH: Add Script Instance to Stack Trace ( scriptName ; scriptParam { #exception } )	0	script steps imported : 1
+2015-04-09 10:50:58.626 -0400	ExceptionHandling.fmp12	0	Import completed
+2015-04-09 10:56:38.064 -0400	ExceptionHandling.fmp12	0	Import of script steps from clipboard started
+2015-04-09 10:56:38.065 -0400	~EXH: Clear Stack Trace	0	script steps imported : 1
+2015-04-09 10:56:38.066 -0400	ExceptionHandling.fmp12	0	Import completed

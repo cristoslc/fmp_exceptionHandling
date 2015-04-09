@@ -49,7 +49,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Requirements" POSITION="right" ID="ID_11593413" CREATED="1428506201403" MODIFIED="1428506204647">
 <edge COLOR="#ffff00"/>
@@ -59,6 +59,12 @@
 <edge COLOR="#007c00"/>
 <node TEXT="fmp_exceptionHandler" ID="ID_178595659" CREATED="1428506813511" MODIFIED="1428506819283"/>
 <node TEXT="exh" ID="ID_893328447" CREATED="1428506811670" MODIFIED="1428506831193"/>
+</node>
+<node TEXT="Core Principles" POSITION="right" ID="ID_311235431" CREATED="1428585621676" MODIFIED="1428585624069">
+<edge COLOR="#007c7c"/>
+<node TEXT="Logging should contain the entire event history in one record; not a dozen separate log items that you need to piece together." ID="ID_1203945183" CREATED="1428585624311" MODIFIED="1428585648235"/>
+<node TEXT="A Stack Trace contains the entire event history" ID="ID_1155992429" CREATED="1428585817917" MODIFIED="1428585824601"/>
+<node TEXT="" ID="ID_822792073" CREATED="1428585825356" MODIFIED="1428585825356"/>
 </node>
 <node TEXT="Concepts" POSITION="right" ID="ID_686959568" CREATED="1428506184508" MODIFIED="1428506186111">
 <edge COLOR="#00ffff"/>
@@ -97,6 +103,7 @@
 <node TEXT="Script Instance Name" ID="ID_1591218771" CREATED="1428508815330" MODIFIED="1428509041398">
 <node TEXT="ex: GetRootException_1AEF399CF" ID="ID_1382892953" CREATED="1428509041704" MODIFIED="1428509059604"/>
 </node>
+<node TEXT="Script Instance Timestamp" ID="ID_511866760" CREATED="1428586814071" MODIFIED="1428586819299"/>
 <node TEXT="Script Name" ID="ID_196864072" CREATED="1428509878314" MODIFIED="1428509879997">
 <node TEXT="ex: Get Root Exception" ID="ID_590186889" CREATED="1428512389851" MODIFIED="1428512393302"/>
 </node>
@@ -105,7 +112,9 @@
 </node>
 <node TEXT="Stack Trace Dictionary" ID="ID_1462160042" CREATED="1428506941732" MODIFIED="1428512164867">
 <node TEXT="a collection of SCRIPT INSTANCES" ID="ID_1812300341" CREATED="1428506950884" MODIFIED="1428506964152"/>
-<node TEXT="is written in reverse, from the time an exception is thrown" ID="ID_1344790919" CREATED="1428508677948" MODIFIED="1428508685736"/>
+<node TEXT="is written in reverse, from the time an exception is thrown" ID="ID_1344790919" CREATED="1428508677948" MODIFIED="1428508685736">
+<node TEXT="Newest item is at the top" ID="ID_1503772726" CREATED="1428585861514" MODIFIED="1428585865862"/>
+</node>
 <node TEXT="a #Parameters dictionary" ID="ID_826174698" CREATED="1428509085064" MODIFIED="1428509088996">
 <node TEXT="names = script instance names" ID="ID_945628918" CREATED="1428509091608" MODIFIED="1428509227523"/>
 <node TEXT="values = script instance dictionaries" ID="ID_1364913966" CREATED="1428512140084" MODIFIED="1428512148144"/>
