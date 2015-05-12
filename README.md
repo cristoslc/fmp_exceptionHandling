@@ -21,6 +21,10 @@ Some drawbacks include:
  
  I propose that we use a standard pattern inside of scripts for error-checking and borrow the "Throw Exception" concept from other programming languages. If an exception is thrown by a subscript, its parent script can decide whether to abort or continue. By using standardized exception objects and a global stack trace, other applications or modules can be easily adapted to employ exception handling.
  
- TODO: Demo file explanation.
- TODO: Explanation of features: stacktrace, exception object
- TODO: Implementation steps: requirements, what order to copy things, adjustments for FileMaker 11
+ * TODO: Demo file explanation.
+ * TODO: Explanation of features: stacktrace, exception object
+ * TODO: Implementation steps: requirements, what order to copy things, adjustments for FileMaker 11
+
+## Feature TODOs
+
+ * TODO: Incorporate FM Error Code description text grabber from https://community.filemaker.com/thread/84068
